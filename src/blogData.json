@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "First Blog Post",
+      "slug": "first-blog-post",
+      "date": "2022-01-01",
+      "subtitle": "In today's rapidly evolving tech landscape, web development has become a crucial skill for professionals across industries. Whether you're a seasoned developer or just getting started  a seasoned developer or just getting started  a seasoned developer or just getting started  a seasoned developer or just getting started.",
+      "keywords": "Software Development",
+      "content": "Lorem ipsum dolor sit amet, <a href='google.com' class='text-blue-600 '> Click Me </a> consectetur adipiscing <img src='https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/play_10_year-keyword_asset-.png' alt='Image' class='my-6'/>  elit. Kjbvjfjvbjfbjvbjbfjvjfjbvjfkbx <hr><br/> jbdcjbkdbcbkcbjdbkjcbjk",
+      "imageUrl": "https://api.iiardjournals.org/i/profile.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Second Blog Post",
+      "slug": "second-blog-post",
+      "date": "2022/01/01",
+      "keywords": "Software Development",
+      "subtitle": "In today's rapidly evolving tech landscape, web development has become a crucial skill for professionals across industries. Whether you're a seasoned developer or just getting started  a seasoned developer or just getting started  a seasoned developer or just getting started  a seasoned developer or just getting started.",
+      "content": "Proin vel risus vel justo vestibulum commodo ut at libero.",
+      "imageUrl": "/dumka.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "About the Tech Gaint",
+      "slug": "About-the-Tech-Gaint",
+      "date": "2022/01/01",
+      "keywords": "Software Development",
+      "subtitle": "In today's rapidly evolving tech landscape, web development has become a crucial skill for professionals across industries. Whether you're a seasoned developer or just getting started  a seasoned developer or just getting started  a seasoned developer or just getting started  a seasoned developer or just getting started.",
+      "content": "Proin vel risus vel justo vestibulum commodo ut at libero.",
+      "imageUrl": "https://www.webfx.com/wp-content/uploads/2023/07/what-is-openai.png"
+    },
+    {
+      "id": 4,
+      "title": "A Journey into Web Development",
+      "slug": "A-Journey-into-Web-Development",
+      "keywords": "Software Development",
+      "subtitle": "In today's rapidly evolving tech landscape, web development has become a crucial skill for professionals across industries. Whether you're a seasoned developer or just getting started  a seasoned developer or just getting started  a seasoned developer or just getting started  a seasoned developer or just getting started.",
+      "date": "2022/01/01",
+      "content": "<p>  In today's rapidly evolving tech landscape, web development has become a crucial skill for professionals across industries.  Whether you're a seasoned developer or just getting started, the journey into web development is both exciting and challenging.  </p>        <p>      <img src='https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/play_10_year-keyword_asset-.png' alt='Web Development' class='w-full h-64 object-cover object-center my-6 rounded-lg shadow-lg' /> </p>  <p> One of the first things you'll encounter on this journey is the vast array of technologies and frameworks available.  From HTML and CSS to JavaScript, React, and beyond, the possibilities are endless. </p>  <p>  <a href='https://example.com/learning-path' class='text-blue-500 hover:underline'>Embarking on a structured learning path </a> is essential. It helps you build a solid foundation and navigate the vast ecosystem of web development tools.  </p>    <p> As you progress, you'll encounter challenges and roadblocks. Debugging becomes a valuable skill, and you'll learn to appreciate  the importance of a supportive developer community.  </p>  <p>   <img src='https://www.cbc.ca/kidsnews/images/GOOGLE25THTHUMB2.png' alt='Debugging' class='w-full h-64 object-cover object-center my-6 rounded-lg shadow-lg' /> </p> <p> Staying up-to-date with the latest trends and technologies is a continuous process. Conferences, online courses, and community events  are excellent ways to broaden your knowledge and network with fellow developers.   </p>  <p> The web development journey is not just about writing code. It's about solving real-world problems, creating user-friendly experiences, and making a positive impact on the digital world.  </p>   <hr class='border-t border-gray-300 my-12' />   <div class='flex items-center'>    <img src='https://placekitten.com/50/50' alt='Author' class='w-12 h-12 rounded-full mr-4' /> <div>    <p class='text-lg font-semibold'>Dumka Bipnelo</p>    <p class='text-gray-600'>Hacker</p>  </div>  </div>",
+      "imageUrl": "https://www.cbc.ca/kidsnews/images/GOOGLE25THTHUMB2.png"
+    }
+  ]
+  
