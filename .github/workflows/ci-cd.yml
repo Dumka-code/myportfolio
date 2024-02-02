@@ -18,11 +18,3 @@ jobs:
 
     - name: Build
       run: npm run build
-
-    - name: Commit and Push Build Artifacts
-      run: |
-        git config --local user.email "preciousdpb2000@gmail.com"
-        git config --local user.name "Dumka-code"
-        git add dist
-        git commit -m "Add build artifacts"
-        git push
