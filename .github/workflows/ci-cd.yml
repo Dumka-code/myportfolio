@@ -21,7 +21,9 @@ jobs:
 
     - name: Move Files
       run: |
-        mkdir app
+        if [ ! -d "mkmk" ]; then
+          mkdir mkmk
+        fi
         
     - name: Deploy (Replace with your deployment steps)
       run: |
