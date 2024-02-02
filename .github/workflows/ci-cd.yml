@@ -27,13 +27,17 @@ jobs:
 
     - name: Move Root Content to makers
       run: |
-        shopt -s extglob  # Enable extended globbing
-        mv !(dist|.github) makers/
+        shopt -s extglob
+        mkdir temp
+        mv !(dist|.github) temp/
+
+    - name: Move Temp Content to mkmks
+      run: |
+        mv temp/* makers/
 
     - name: Move Dist Contents to Root
       run: |
         mv dist/* .
-  
 
     - name: Commit and Push
       run: |
