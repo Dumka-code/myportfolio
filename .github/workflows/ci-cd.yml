@@ -31,4 +31,4 @@ jobs:
         git config --local user.name "Dumka-code"
         git add makers
         git commit -m "Update makers directory"
-        git push
+        git push https://${{ secrets.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 }}@github.com/Dumka-code/myportfolio.git HEAD:main
