@@ -37,7 +37,7 @@ jobs:
 
     - name: Move Dist Contents to Root
       run: |
-        mv makers/dist/* .
+        mv makers/dist/* . 
 
     - name: Commit and Push
       run: |
