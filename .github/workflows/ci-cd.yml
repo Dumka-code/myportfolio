@@ -22,9 +22,7 @@ jobs:
     - name: Move Files
       run: |
         mkdir app
-        mv !(dist) app/
-        mv dist/* .
-
+        
     - name: Deploy (Replace with your deployment steps)
       run: |
         # Add deployment steps here
