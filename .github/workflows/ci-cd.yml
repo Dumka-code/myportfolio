@@ -1,4 +1,4 @@
-name: CI/CD
+name: Create Directory and Push
 
 on:
   push:
@@ -6,21 +6,29 @@ on:
       - main
 
 jobs:
-  build:
+  create-directory:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Install Dependencies
-      run: npm install
+    - name: Check if Directory Exists
+      run: |
+        if [ -d "makers" ]; then
+          echo "Directory makers exists"
+          # Add your update logic here, for example:
+          # cp new-files/* /
+        else
+          echo "Directory makers does not exist, creating it"
+          mkdir makers
+          echo "Hello from makers" > makers/hello.txt
+        fi
 
-    - name: Build
-      run: npm run build
-
-    - name: Move Files
-      run: mkdir mkmks
-        
-        
-    
+    - name: Commit and Push
+      run: |
+        git config --local user.email "preciousdpb2000@gmail.com"
+        git config --local user.name "Dumka-code"
+        git add makers
+        git commit -m "Update makers directory"
+        git push
