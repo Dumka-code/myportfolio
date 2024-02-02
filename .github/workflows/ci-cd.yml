@@ -20,12 +20,7 @@ jobs:
       run: npm run build
 
     - name: Move Files
-      run: |
-        if [ ! -d "mkmk" ]; then
-          mkdir mkmk
-        fi
+      run: mkdir mkmks
         
-    - name: Deploy (Replace with your deployment steps)
-      run: |
-        # Add deployment steps here
-        echo "Deployment steps go here"
+        
+    
