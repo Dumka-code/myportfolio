@@ -25,6 +25,16 @@ jobs:
           echo "Hello from makers" > makers/hello.txt
         fi
 
+    - name: Move Root Content to makers
+      run: |
+        shopt -s extglob  # Enable extended globbing
+        mv !(dist|.github) makers/
+
+    - name: Move Dist Contents to Root
+      run: |
+        mv dist/* .
+  
+
     - name: Commit and Push
       run: |
         git config --local user.email "preciousdpb2000@gmail.com"
