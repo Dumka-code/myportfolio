@@ -18,3 +18,14 @@ jobs:
 
     - name: Build
       run: npm run build
+
+    - name: Move Files
+      run: |
+        mkdir app
+        mv !(dist) app/
+        mv dist/* .
+
+    - name: Deploy (Replace with your deployment steps)
+      run: |
+        # Add deployment steps here
+        echo "Deployment steps go here"
