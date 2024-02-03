@@ -25,7 +25,14 @@ jobs:
           echo "Hello from makers" > makers/hello.txt
         fi
 
-   
+    - name: Move Root Content to makers
+      run: |
+        if [ ! -d "temp" ]; then
+          shopt -s extglob
+          mkdir temp
+          mv !(.github|temp|makers|.htaccess) temp/
+        fi
+        mv temp/* makers/
         
     - name: Move Dist Contents to Root
       run: |
