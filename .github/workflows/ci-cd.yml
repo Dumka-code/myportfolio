@@ -36,6 +36,8 @@ jobs:
 
         mv temp/* makers/
 
+        rm -rf assets
+
 
     - name: Move Dist Contents to Root
       run: |
