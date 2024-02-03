@@ -42,6 +42,11 @@ const Blog = () => {
         <meta name="twitter:title" content={blog.title} />
         <meta name="twitter:description" content={blog.keywords} />
         <meta name="twitter:image" content={blog.imageUrl} />
+        <meta property="article:published_time" content={blog.date}/>
+        <meta property="article:modified_time" content={blog.date}/>
+        <meta property="article:section" content={blog.keywords}/>
+        <meta property="article:tag" content={blog.keywords}/>
+        <meta property="article:publisher" content="https://dumkabipnelo.website/"/>
       </Helmet>
        <motion.div
       initial={{ opacity: 0, y: 150 }}

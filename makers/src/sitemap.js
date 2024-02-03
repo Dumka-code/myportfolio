@@ -34,16 +34,16 @@ const saveSitemapToFile = (sitemapContent, filePath) => {
 };
 
 // Generate blog URLs dynamically
-const blogUrls = blogData.map((blog) => `http://192.168.28.124:5173/blog/${blog.slug}`);
+const blogUrls = blogData.map((blog) => `https://dumkabipnelo.website/blog/${blog.slug}`);
 
 // Combine blog URLs with other static URLs
 const allUrls = [
-  'http://192.168.28.124:5173/',
+  'https://dumkabipnelo.website/',
   // ... other static URLs
   ...blogUrls,
 ];
 
 // Generate the sitemap and save it to a file
 const sitemapContent = generateSitemap(allUrls);
-const sitemapFilePath = 'sitemap.xml';
+const sitemapFilePath = '../public/sitemap.xml';
 saveSitemapToFile(sitemapContent, sitemapFilePath);

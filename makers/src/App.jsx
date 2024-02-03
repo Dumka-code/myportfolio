@@ -37,23 +37,22 @@ const LandingPage = () => (
         <meta name="author" content="Dumka_Bipnelo"/>
         <meta http-equiv="Content-Language" content="en"/>
         <meta name="keywords" content="Dumka, Bipnelo, Software, Graphql, Django, full-stack, Nextjs, Linux" />
-        <meta property="og:url" content="http://www.dumkabipnelo.com"/>
+        <meta property="og:url" content="https://dumkabipnelo.website"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="About Dumka Bipnelo" />
         <meta property="og:description" content="Dumka Bipnelo Portfolio and Projects" />
-        <meta property="og:image" content="dumka.jpeg" />
-        <meta name="twitter:card" content="/dumka.jpeg"/>
+        <meta property="og:image" content="https://dumkabipnelo.website/dumka.jpeg" />
+        <meta name="twitter:card" content="https://dumkabipnelo.website/dumka.jpeg"/>
         <meta name="twitter:site" content="@BipneloDumka"/>
         <meta name="twitter:creator" content="@BipneloDumka"/>
         <meta name="twitter:title" content="Dumka Bipnelo"/>
         <meta name="twitter:description" content="About Dumka Bipnelo"/>
-        <meta name="twitter:image" content="/dumka.jpeg"/>
+        <meta name="twitter:image" content="https://dumkabipnelo.website/dumka.jpeg"/>
         {/* Additional meta tags for SEO */}
       </Helmet>
- <Name />
+    <Name />
      <Projects projects = {projectsData}/>
      <About images={imageUrls}/>
-     <Toaster />
      <Resume/>
   </>
 );
@@ -73,6 +72,7 @@ const App = () => {
         <Route path='/*' element={<NotFound/>} />         
       </Routes>
     </Router>
+    <Toaster/>
      <Footer/>
     
      
