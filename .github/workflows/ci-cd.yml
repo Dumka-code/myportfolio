@@ -28,7 +28,7 @@ jobs:
     - name: Move Root Content to makers
       run: |
         if [ -d "temp" ]; then
-        echo "Do nothing"
+          echo "Do nothing"
         else
           shopt -s extglob
           mkdir temp
