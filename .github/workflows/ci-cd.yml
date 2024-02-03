@@ -25,12 +25,7 @@ jobs:
           echo "Hello from makers" > makers/hello.txt
         fi
     
-    - name: Build
-      run: |
-          cd makers
-          npm run build
-          npm install express nodemailer body-parser
-
+    
     - name: Move Root Content to makers
       run: |
         shopt -s extglob
