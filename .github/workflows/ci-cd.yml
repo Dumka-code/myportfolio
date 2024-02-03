@@ -27,14 +27,15 @@ jobs:
 
     - name: Move Root Content to makers
       run: |
-        shopt -s extglob
-        mkdir temp
-        mv !(.github|temp|makers|.htaccess) temp/
-
-    - name: Move Temp Content to mkmks
-      run: |
-        mv temp/* makers/
-
+        if [ -d "temp" ]; then
+        echo "Do nothing"
+        else
+          shopt -s extglob
+          mkdir temp
+          mv !(.github|temp|makers|.htaccess) temp/
+          mv temp/* makers/
+        fi
+        
     - name: Move Dist Contents to Root
       run: |
         mv makers/dist/* .
