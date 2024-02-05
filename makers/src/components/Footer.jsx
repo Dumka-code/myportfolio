@@ -49,7 +49,7 @@ const Footer = () => {
       description: `An email has been sent to ${values.email}`,
     });
 
-    fetch("/api/send-welcome-email", {
+    fetch("https://dapis.dumkabipnelo.website/api/send-welcome-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
