@@ -6,25 +6,32 @@ const blogDataPath = path.join(__dirname, 'blogData.json');
 const blogData = require(blogDataPath);
 
 // Function to generate the XML content for a single URL
-const createUrlEntry = (url, lastModified, changeFrequency, priority) => `
+const createUrlEntry = (blog) => `
   <url>
-    <loc>${url}</loc>
-    <lastmod>${lastModified || new Date().toISOString()}</lastmod>
-    <changefreq>${changeFrequency || 'monthly'}</changefreq>
-    <priority>${priority || '0.5'}</priority>
+    <loc>https://dumkabipnelo.website/blog/${blog.slug}</loc>
+    <lastmod>${blog.date || new Date().toISOString()}</lastmod>
+    <changefreq>${blog.changeFrequency || 'weekly'}</changefreq>
+    <priority>${blog.priority || '0.5'}</priority>
   </url>
 `;
 
 // Function to generate the entire sitemap XML
-const generateSitemap = (urls) => {
-  const currentDate = new Date().toISOString();
+const generateSitemap = (blogs) => {
   const xmlHeader = '<?xml version="1.0" encoding="UTF-8"?>';
   const xmlUrlsetStart = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
   const xmlUrlsetEnd = '</urlset>';
 
-  const urlEntries = urls.map((url) => createUrlEntry(url, currentDate));
+  // Include the main website URL with its own lastmod value
+  const mainUrlEntry = `<url>
+    <loc>https://dumkabipnelo.website/</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>`;
 
-  return `${xmlHeader}\n${xmlUrlsetStart}\n${urlEntries.join('\n')}\n${xmlUrlsetEnd}`;
+  const urlEntries = blogs.map((blog) => createUrlEntry(blog));
+
+  return `${xmlHeader}\n${xmlUrlsetStart}\n${mainUrlEntry}\n${urlEntries.join('\n')}\n${xmlUrlsetEnd}`;
 };
 
 // Save the generated sitemap to a file
@@ -33,17 +40,7 @@ const saveSitemapToFile = (sitemapContent, filePath) => {
   console.log(`Sitemap saved to ${filePath}`);
 };
 
-// Generate blog URLs dynamically
-const blogUrls = blogData.map((blog) => `https://dumkabipnelo.website/blog/${blog.slug}`);
-
-// Combine blog URLs with other static URLs
-const allUrls = [
-  'https://dumkabipnelo.website/',
-  // ... other static URLs
-  ...blogUrls,
-];
-
 // Generate the sitemap and save it to a file
-const sitemapContent = generateSitemap(allUrls);
+const sitemapContent = generateSitemap(blogData);
 const sitemapFilePath = '../public/sitemap.xml';
 saveSitemapToFile(sitemapContent, sitemapFilePath);
