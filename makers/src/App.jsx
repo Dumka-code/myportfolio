@@ -16,7 +16,6 @@ import { Helmet } from 'react-helmet';
 
 const imageUrls = [
   './prol.jpeg',
-  'https://api.iiardjournals.org/i/profile.jpeg',
   'dumka.jpeg',
   'dumka1.jpeg',
   'dumka2.jpeg',

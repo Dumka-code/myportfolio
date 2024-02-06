@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "International Institute of Academic Research and Development",
-    "videoUrl": "https://video.godly.website/video/upload/w_640/q_70/godly/recordings/q23dypnitxeum8qwzifb.webm",
+    "videoUrl": "iiard.mp4",
     "content": "I was given the opportunity to work as a software developer at IIARD, a journal publication company. This company exposed me to Advanced SEO tools and techniques, as well as Doi, Crossref, Worldcat, and other third-party systems for integration. While at IIARD, I was able to update their systems designs, build an email crawler, false email identifier programs, Anti-mailing mechanism(Dmarc, rua Records), and Marketing Mail templates.   With these tools 🔧 the business increased in management services, error free publication of articles, and instant appearance of articles on Google indexing. Tools i utilize at iiard included Linux bash, PHP 7, Bootstrap 6, python3(for automated programs), fluterwave for payment gateway, and many more...  The official site can be visited at https://iiardjournals.org/ ",
     "frameworks": "PHP 7, Bootstrap 6, MySQL",
     "tools": "fluterwave, Linux bash, Google Analytics, Untitled Sans, Sitegrounds",
@@ -11,7 +11,7 @@
   { 
     "id": 2,
     "title": " Yiwuke Limited.",
-    "videoUrl": "https://video.godly.website/video/upload/w_640/q_70/godly/recordings/q23dypnitxeum8qwzifb.webm",
+    "videoUrl": "yiwuke.mp4",
     "content": "I was given the opportunity to manage a warehouse website built with WordPress and also maintain the warehouse database systems that helped locate the location of goods/items in a vast warehouse environment. The software designed with Java SDK 7 (Android) was built to work with scanners and a monolithic server architecture.       My service improved the software as to detecting bugs and errors and also creating SEO techniques to make the website  have more online presence, which can be visited at yiwukeltd.com ",
     "frameworks": "Wordpress Plugins",
     "tools": "WhatsApp api, Google Console, Untitled Sans, Bluehost",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Cohort-6 LABS",
-    "videoUrl": "https://video.godly.website/video/upload/w_640/q_70/godly/recordings/q23dypnitxeum8qwzifb.webm",
+    "videoUrl": "cohort.mp4",
     "content": "I built an experimental site with PHP 7 and bootstrap for login and encryption mechanism, where I explored SQL injection and some penetration tests. Which can be visited at cohort-6.atwebpages.com/login.php. with elegant Ui",
     "frameworks": "PHP 7, Bootstrap 6, MySQL",
     "tools": "Untitled Sans, Awardspace",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "IJEE",
-    "videoUrl": "https://video.godly.website/video/upload/w_640/q_70/godly/recordings/q23dypnitxeum8qwzifb.webm",
+    "videoUrl": "ijee.mp4",
     "content": "I was given the opportunity to build a system for a journal publication company in Italy called IJEE. at which I used tools like Reactjs with inertia.js vite-bundler and laravel 10.x. Was hosted on Namecheap and CMS with Cpanel. Can be visited at ijee.io",
     "frameworks": "Laravel 10.x, Interia.js, Reactjs, Tailwindcss",
     "tools": "Namecheap, Google Console, Cpanel, mySQL, Figma",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "Getlinked",
-    "videoUrl": "https://video.godly.website/video/upload/w_640/q_70/godly/recordings/q23dypnitxeum8qwzifb.webm",
+    "videoUrl": "getlinked.mp4",
     "content": "I also participated in a hackaton called getlinked, at which i used Nextjs13.4, anime.js, and React to build its design and hosted on Vercel. Can also be visited at https://getlinked-main.vercel.app",
     "frameworks": "Nextjs 13(App-Router), Tailwindcss, Reactjs, animejs, GSAP",
     "tools": "Vercel, Github, Vs-code",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "Zorin Clone",
-    "videoUrl": "https://video.godly.website/video/upload/w_640/q_70/godly/recordings/q23dypnitxeum8qwzifb.webm",
+    "videoUrl": "zorina.mp4",
     "content": "I also experimented with Frontend development by cloning the ZORIN operating systems in a web interface manner using HTML5 CSS Javascript and three.js. Which can be visited at https://api.iiardjournals.org/ZORIN/index.html. (Note the password is Dumka)",
     "frameworks": "threejs, HTML5, CSS",
     "tools": "Siteground, Vs-code",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "title": "Cohort",
-    "videoUrl": "https://video.godly.website/video/upload/w_640/q_70/godly/recordings/q23dypnitxeum8qwzifb.webm",
+    "videoUrl": "m",
     "content": "I have also be given the opportunity to participate in an open source project called Cohort which is currently till on development and its using tools like Django, Laravel and Nextjs13.4 and Docker Containers. A courtesy of Cohort_6 Laboratory at https://github.com/Cohort6-lab",
     "frameworks": " Django, Laravel, and Nextjs13.4 and Docker Containers ",
     "tools": "Github, AWS, Vs-code",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "title": "Prol",
-    "videoUrl": "https://video.godly.website/video/upload/w_640/q_70/godly/recordings/q23dypnitxeum8qwzifb.webm",
+    "videoUrl": "prol.mp4",
     "content": "While still working. On a project called Prol where I explore the code possibilities with Python Django and Nextjs13.4 App Router with Apollo Clients for GraphQL. Currently on Development and repo is private",
     "frameworks": "Nextjs13.4 App Router, Apollo Clients for GraphQL, Python Django ",
     "tools": "Github, Linux, Vs-code",
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "title": "Previous-Portfolio",
-    "videoUrl": "https://video.godly.website/video/upload/w_640/q_70/godly/recordings/q23dypnitxeum8qwzifb.webm",
+    "videoUrl": "portfilio.mp4",
     "content": "previous portfolio can be visited at https://api.iiardjournals.org",
     "frameworks": "Aminejs, Bootstrap, Sitegroud",
     "tools": "Github, Vs-code",

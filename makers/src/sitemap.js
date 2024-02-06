@@ -18,7 +18,7 @@ const createUrlEntry = (blog) => `
 // Function to generate the entire sitemap XML
 const generateSitemap = (blogs) => {
   const xmlHeader = '<?xml version="1.0" encoding="UTF-8"?>';
-  const xmlUrlsetStart = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+  const xmlUrlsetStart = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" \n\t xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" \n\t xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 \n\t http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">\n';
   const xmlUrlsetEnd = '</urlset>';
 
   // Include the main website URL with its own lastmod value

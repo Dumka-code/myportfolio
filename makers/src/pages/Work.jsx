@@ -84,7 +84,7 @@ const Work = () => {
 
       <div className="relative aspect-w-16 aspect-h-9 m-2 mt-6">
         <video className="w-full h-full bg-black object-cover rounded-lg" autoPlay loop muted playsInline>
-          <source src={project.videoUrl} type="video/webm" />
+          <source src={project.videoUrl} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
