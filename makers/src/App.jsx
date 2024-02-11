@@ -68,7 +68,6 @@ const App = () => {
         <Route exact path="/project/:id" element={<Work/>} />
         <Route  path="/Blog" element={<BlogHome/>} />
         <Route path="/blog/:slug" element={<Blog/>} />
-        <Route exact path="/Form" element={<SubmitForm/>} />
         <Route path='/*' element={<NotFound/>} />         
       </Routes>
     </Router>
