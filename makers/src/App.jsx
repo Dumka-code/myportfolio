@@ -12,6 +12,7 @@ import Work from './pages/Work';
 import Blog from './pages/Blog';
 import BlogHome from './pages/BlogHome';
 import NotFound from './pages/NotFound';
+import SubmitForm from './pages/SubmitForm';
 import { Helmet } from 'react-helmet';
 
 const imageUrls = [
@@ -68,6 +69,7 @@ const App = () => {
         <Route exact path="/project/:id" element={<Work/>} />
         <Route  path="/Blog" element={<BlogHome/>} />
         <Route path="/blog/:slug" element={<Blog/>} />
+        <Route exact path="/Form" element={<SubmitForm/>} />
         <Route path='/*' element={<NotFound/>} />         
       </Routes>
     </Router>
