@@ -12,7 +12,6 @@ import Work from './pages/Work';
 import Blog from './pages/Blog';
 import BlogHome from './pages/BlogHome';
 import NotFound from './pages/NotFound';
-import SubmitForm from './pages/SubmitForm';
 import { Helmet } from 'react-helmet';
 
 const imageUrls = [
