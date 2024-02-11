@@ -1,0 +1,47 @@
+{
+    "name": "Dumka Bipnelo",
+    "short_name": "Dumka",
+    "start_url": "dumkabipnelo.website/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Dumka Bipnelo Portfolio",
+    "icons": [
+      {
+        "src": "https://dumkabipnelo.website/dumka.jpeg",
+        "sizes": "48x48",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "https://dumkabipnelo.website/dumka.jpeg",
+        "sizes": "72x72",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "https://dumkabipnelo.website/dumka.jpeg",
+        "sizes": "96x96",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "https://dumkabipnelo.website/dumka.jpeg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "https://dumkabipnelo.website/dumka.jpeg",
+        "sizes": "168x168",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "https://dumkabipnelo.website/dumka.jpeg",
+        "sizes": "192x192",
+        "type": "image/jpeg"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/"
+      }
+    ]
+  }
+  
