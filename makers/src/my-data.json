@@ -71,7 +71,8 @@
     "frameworks": "Aminejs, Bootstrap, Sitegroud",
     "tools": "Github, Vs-code",
     "year": "2022"
-  },{
+  },
+  {
     "id": 9,
     "title": "Cohort",
     "videoUrl": "",
@@ -79,6 +80,16 @@
     "frameworks": " Django, Laravel, and Nextjs13.4 and Docker Containers ",
     "tools": "Github, AWS, Vs-code",
     "year": "2023"
+  },
+  {
+    "id": 10,
+    "title": "Quantum Designs ",
+    "videoUrl": "quantum.mp4",
+    "content": "Designed Quantum Designs The Ultimate Portfolio builder for Researchers And Scholars using Reactjs, Github, Git-Actions, Vite and (PHP of Server-side). can be visited at https://quantumdesigns.site ",
+    "frameworks": "Reactjs, Vite, PHP of Server-side",
+    "tools": "Github, Cpanel(CMS), Vs-code, Git-Actions",
+    "year": "2024"
   }
+
 
 ]
