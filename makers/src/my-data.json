@@ -83,8 +83,8 @@
   },
   {
     "id": 10,
-    "title": "Quantum Designs ",
-    "videoUrl": "quantum.mp4",
+    "title": "Quantum Designs",
+    "videoUrl": "/quantum.mp4",
     "content": "Designed Quantum Designs The Ultimate Portfolio builder for Researchers And Scholars using Reactjs, Github, Git-Actions, Vite and (PHP of Server-side). can be visited at https://quantumdesigns.site ",
     "frameworks": "Reactjs, Vite, PHP of Server-side",
     "tools": "Github, Cpanel(CMS), Vs-code, Git-Actions",
